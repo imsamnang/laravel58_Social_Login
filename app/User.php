@@ -39,5 +39,5 @@ class User extends Authenticatable
 
     public function identities() {
         return $this->hasMany('App\SocialIdentity');
-    }    
+    }
 }

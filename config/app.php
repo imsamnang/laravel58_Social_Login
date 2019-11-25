@@ -135,7 +135,7 @@ return [
     */
 
     'providers' => [
-        Laravel\Socialite\SocialiteServiceProvider::class,
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
@@ -189,7 +189,7 @@ return [
     */
 
     'aliases' => [
-        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
