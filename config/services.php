@@ -58,4 +58,9 @@ return [
         'client_secret' => env('TWITTER_CLIENT_SECRET'),
         'redirect' => env('TWITTER_CALLBACK_URL'),
     ],
+    'bitbucket' => [
+        'client_id' => env('BITBUCKET_CLIENT_ID'),
+        'client_secret' => env('BITBUCKET_CLIENT_SECRET'),
+        'redirect' => env('BITBUCKET_CALLBACK_URL'),
+    ],    
 ];

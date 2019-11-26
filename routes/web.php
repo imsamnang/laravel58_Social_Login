@@ -11,16 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/','welcome')->name('front');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
-Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
+Route::get('oauth/{provider}', 'Auth\LoginController@redirectToProvider');
+Route::get('oauth/{provider}/callback','Auth\LoginController@handleProviderCallback');
 
 Route::get('/social/edit','SocialSettingController@editSocial')->name('social.edit');
 Route::put('/social/update', 'SocialSettingController@updateSocial')->name('social.update');

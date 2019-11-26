@@ -12,11 +12,12 @@
                         @csrf
                         <div class="form-group row">
                             <div class="col-md-6 col-md-offset-3">
-                                <a href="{{ url('/login/facebook') }}" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
-                                <a href="{{ url('/login/google') }}" class="btn btn-google"><i class="fa fa-google"></i> Google</a>
-                                <a href="{{ url('/login/github') }}" class="btn btn-github"><i class="fa fa-github"></i> Github</a>
-                                <a href="{{ url('/login/twitter') }}" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
-                                <a href="{{ url('/login/linkedin') }}" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
+                                <a href="{{ url('/oauth/facebook') }}" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a href="{{ url('/oauth/google') }}" class="btn btn-google"><i class="fa fa-google"></i> Google</a>
+                                <a href="{{ url('/oauth/github') }}" class="btn btn-github"><i class="fa fa-github"></i> Github</a>
+                                <a href="{{ url('/oauth/twitter') }}" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="{{ url('/oauth/linkedin') }}" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
+                                <a href="{{ url('/oauth/bitbucket') }}" class="btn btn-bitbucket"><i class="fa fa-bitbucket"></i> Bitbucket</a>
                             </div>
                         </div>                        
                         <div class="form-group row">
